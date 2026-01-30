@@ -34,9 +34,9 @@
 - Jupyter Notebook
 
 ## 6. Files
-- `notebooks/main_analysis.ipynb`  
+- `제3회 BDA 채용 공모전_P-Valley.ipynb`  
   : 전체 분석 파이프라인 (EDA → 분석 → 결과)
-- `docs/report_round1.pdf`  
+- `제3회 BDA 채용 공모전.pdf:`  
   : 공모전 1차 제출 보고서
-- `docs/final_presentation.pdf`  
+- `제3회 BDA 채용 공모전(2차 심사 파일)_P-Valley.pdf`  
   : 공모전 2차 본선 발표 자료
