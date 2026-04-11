@@ -84,7 +84,8 @@ This map visualizes the relationship between:
 
 Highlighted regions (purple) represent top vacancy areas.
 
-→ [View Interactive Map](docs/yeosu_map.html)
+→ <img width="737" height="818" alt="image" src="https://github.com/user-attachments/assets/c95a99c8-d518-4d0a-93d5-47dd62d1fa86" />
+
 
 ---
 
