@@ -5,8 +5,11 @@
 
 # Tourism Analysis Project: Travel Patterns and Accommodation Strategy
 
-A data analysis project based on the National Travel Survey, aimed at identifying high-spending, overnight tourism regions.
+> Identifying high-spending tourism regions and proposing data-driven accommodation strategies using real-world tourism data.
+
+A data analysis project based on the National Travel Survey, aimed at identifying high-spending, overnight tourism regions.  
 This study integrates travel patterns, expenditure data, and regional characteristics to support data-driven accommodation infrastructure and policy recommendations.
+
 ---
 
 ## Repository Structure
@@ -16,6 +19,7 @@ This study integrates travel patterns, expenditure data, and regional characteri
 | `제3회 BDA 채용 공모전_P-Valley.ipynb` | Full analysis pipeline (EDA → analysis → results) |
 | `제3회 BDA 채용 공모전.pdf` | Initial submission report |
 | `제3회 BDA 채용 공모전(2차 심사 파일)_P-Valley.pdf` | Final presentation for competition |
+
 ---
 
 ## Analysis Overview
@@ -53,25 +57,26 @@ Additional datasets may include:
 
 ## Key Findings
 
-- **Yeosu** was identified as the most suitable high-spending overnight tourism region
-- Spatial analysis combining tourist attractions and vacant housing enabled practical location insights
-- Results suggest strong potential for regional economic growth through accommodation infrastructure development
-- Tourism patterns and expenditure structures vary significantly across regions
-  → Effective policy decisions require integrating multiple regional characteristics
+- **Yeosu** was identified as the most suitable region based on high expenditure levels and strong overnight travel patterns  
+- Spatial analysis combining tourist attractions and vacant housing enabled practical and location-specific insights  
+- Results suggest strong potential for regional economic growth through accommodation infrastructure development  
+- Tourism patterns and expenditure structures vary significantly across regions  
+  → The growth–development relationship depends on multiple regional characteristics  
+- The framework can support data-driven tourism policy and regional development planning  
 
 ---
 
 ## Limitations & Future Work
 
-- The analysis focuses on observed patterns and does not establish causal relationships
-- External factors such as seasonality and policy constraints are not fully considered
-- Web scraping was considered to collect additional spatial and infrastructure data for optimal location selection, but was not implemented due to data accessibility constraints
-- Future work may extend to predictive modeling and optimization-based location analysis, incorporating automated data collection (e.g., web scraping)
+- The analysis focuses on observed patterns and does not establish causal relationships  
+- External factors such as seasonality and policy constraints are not fully considered  
+- Web scraping was planned to enhance the location selection process by incorporating real-world infrastructure data, but was not implemented due to data access limitations  
+- Future work may extend to predictive modeling and optimization-based location analysis, incorporating automated data collection (e.g., web scraping)  
 
 ---
 
 ## Environment
 
-- **Language**: Python 3.x
-- **Libraries**: pandas, numpy, scikit-learn, matplotlib, seaborn
-- **Tools**: Jupyter Notebook
+- **Language**: Python 3.x  
+- **Libraries**: pandas, numpy, scikit-learn, matplotlib, seaborn  
+- **Tools**: Jupyter Notebook  
