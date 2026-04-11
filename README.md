@@ -1,82 +1,136 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Tourism](https://img.shields.io/badge/Topic-Tourism-green)
-![EDA](https://img.shields.io/badge/Analysis-EDA-orange)
-![Policy](https://img.shields.io/badge/Focus-Policy%20Analysis-purple)
+![EDA](https://img.shields.io/badge/Analysis-EDA-green)
+![GIS](https://img.shields.io/badge/Focus-Spatial%20Analysis-orange)
+![Tourism](https://img.shields.io/badge/Domain-Tourism-purple)
 
-# Tourism Analysis Project: Travel Patterns and Accommodation Strategy
+# Tourism Analysis Project: Optimal Accommodation Site Selection in Yeosu
 
-> Identifying high-spending tourism regions and proposing data-driven accommodation strategies using real-world tourism data.
+> A data-driven project that identifies high-value accommodation locations by analyzing tourism demand and vacancy distribution.
 
-A data analysis project based on the National Travel Survey, aimed at identifying high-spending, overnight tourism regions.  
-This study integrates travel patterns, expenditure data, and regional characteristics to support data-driven accommodation infrastructure and policy recommendations.
+This project analyzes national travel survey data to identify high-spending, overnight tourism regions, and proposes optimal accommodation infrastructure locations by integrating tourist hotspots and vacant housing data.
 
 ---
 
 ## Repository Structure
 
-| File | Description |
-|------|------|
-| `제3회 BDA 채용 공모전_P-Valley.ipynb` | Full analysis pipeline (EDA → analysis → results) |
-| `제3회 BDA 채용 공모전.pdf` | Initial submission report |
-| `제3회 BDA 채용 공모전(2차 심사 파일)_P-Valley.pdf` | Final presentation for competition |
+| Folder/File | Description |
+|-------------|-------------|
+| `notebooks/` | Full analysis pipeline (EDA → modeling → spatial analysis) |
+| `docs/` | Competition reports and presentation materials |
+| `figures/` | Visualization outputs including map screenshots |
+| `data/` | Dataset description only (data not included) |
+| `docs/yeosu_map.html` | Interactive map visualization |
 
 ---
 
-## Analysis Overview
+## Project Background
 
-### Initial Analysis (analysis.ipynb)
+Traditional tourism analysis focuses on visitor counts.  
+However, effective regional development requires understanding:
 
-| Section | Description |
-|------|------|
-| Data Loading & Preprocessing | Cleaning data and preparing analysis-ready variables |
-| Travel Pattern Analysis | Regional comparison of travel types (overnight vs day trips) |
-| Expenditure Analysis | Distribution and comparison of tourism spending by region |
-| Candidate Region Selection | Identification of high-spending overnight tourism regions |
-| Spatial Insights | Exploration of regional tourism characteristics |
+- Travel patterns  
+- Spending behavior  
+- Accommodation demand  
 
-### Advanced Analysis (analysis_advanced.ipynb)
-
-| Section | Description |
-|------|------|
-| Data Integration | Combining tourism data with attraction distribution and vacant housing data |
-| Location Analysis | Identifying optimal regions for accommodation infrastructure |
-| Case Study (Yeosu) | In-depth regional analysis with tourist attractions and housing data |
-| Impact Evaluation | Estimating potential regional economic effects |
+This project aims to provide data-driven insights for tourism policy and infrastructure planning.
 
 ---
 
-## Data Preparation
+## Data
 
-Use the National Travel Survey dataset and preprocess it within the notebook.
-
-Additional datasets may include:
-- Tourist attraction distribution data  
-- Vacant housing data  
+- Source: National Travel Survey (국민여행조사)  
+- Unit of Analysis: Regional tourism patterns  
+- Key Variables:
+  - Travel type (overnight / day trip)  
+  - Tourism expenditure  
+  - Visited locations  
+  - Tourist attraction distribution  
 
 ---
 
-## Key Findings
+## Methodology
 
-- **Yeosu** was identified as the most suitable region based on high expenditure levels and strong overnight travel patterns  
-- Spatial analysis combining tourist attractions and vacant housing enabled practical and location-specific insights  
-- Results suggest strong potential for regional economic growth through accommodation infrastructure development  
-- Tourism patterns and expenditure structures vary significantly across regions  
-  → The growth–development relationship depends on multiple regional characteristics  
-- The framework can support data-driven tourism policy and regional development planning  
+1. Exploratory Data Analysis (EDA) of tourism patterns  
+2. Identification of high-spending overnight tourism regions  
+3. Integration with:
+   - Tourist attraction data  
+   - Vacant housing data  
+4. Spatial analysis for location selection  
+5. Evaluation of expected economic impact  
+
+---
+
+## Key Results
+
+- Final selected region: Yeosu  
+- Identified areas with:
+  - High tourism demand  
+  - High vacancy availability  
+- Conducted spatial analysis combining:
+  - Tourist hotspots  
+  - Vacant housing clusters  
+- Demonstrated potential for:
+  → Regional economic revitalization  
+  → Efficient accommodation infrastructure planning  
+
+---
+
+## Spatial Analysis: Vacancy vs Tourist Attractions
+
+This map visualizes the relationship between:
+
+- Vacant housing distribution (blue & purple)  
+- Major tourist attractions (red)  
+
+Highlighted regions (purple) represent top vacancy areas.
+
+→ [View Interactive Map](docs/yeosu_map.html)
+
+---
+
+## Insights
+
+- Certain regions show spatial mismatch between tourism demand and accommodation supply  
+- High vacancy areas near tourist zones present opportunities for redevelopment  
+- Data-driven planning can improve:
+  - Resource allocation  
+  - Regional tourism efficiency  
 
 ---
 
 ## Limitations & Future Work
 
-- The analysis focuses on observed patterns and does not establish causal relationships  
-- External factors such as seasonality and policy constraints are not fully considered  
-- Web scraping was planned to enhance the location selection process by incorporating real-world infrastructure data, but was not implemented due to data access limitations  
-- Future work may extend to predictive modeling and optimization-based location analysis, incorporating automated data collection (e.g., web scraping)  
+- Web crawling for detailed location data was planned but not implemented  
+- Analysis relies on aggregated regional data  
+- Future improvements:
+  - Incorporate real-time tourism data  
+  - Use fine-grained spatial clustering  
+  - Apply predictive modeling for demand forecasting  
 
 ---
 
-## Environment
+## Data Availability
 
-- **Language**: Python 3.x  
-- **Libraries**: pandas, numpy, scikit-learn, matplotlib, seaborn  
-- **Tools**: Jupyter Notebook  
+The dataset used in this project cannot be publicly shared.
+
+---
+
+## Tech Stack
+
+- Python: pandas, numpy, scikit-learn, matplotlib, seaborn  
+- Visualization: folium (interactive map)  
+- Environment: Jupyter Notebook  
+
+---
+
+## Summary
+
+This project demonstrates how combining:
+
+- Tourism demand data  
+- Spatial analysis  
+- Vacancy information  
+
+can lead to practical and actionable insights for urban and tourism development.
+
+→ A step toward data-driven regional policy design.
