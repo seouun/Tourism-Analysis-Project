@@ -3,7 +3,7 @@
 ![GIS](https://img.shields.io/badge/Focus-Spatial%20Analysis-orange)
 ![Tourism](https://img.shields.io/badge/Domain-Tourism-purple)
 
-# Tourism Analysis Project: Optimal Accommodation Site Selection in Yeosu
+# Tourism Analysis: Data-Driven Accommodation Site Selection
 
 > A data-driven project that identifies high-value accommodation locations by analyzing tourism demand and vacancy distribution.
 
@@ -83,7 +83,6 @@ This map visualizes the relationship between:
 - Major tourist attractions (red)  
 
 Highlighted regions (purple) represent top vacancy areas.
-→
  <img width="737" height="818" alt="image" src="https://github.com/user-attachments/assets/c95a99c8-d518-4d0a-93d5-47dd62d1fa86" />
 
 
