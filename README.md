@@ -1,42 +1,77 @@
-# Tourism Analysis Project  
-국민여행조사 기반 관광 데이터 분석  
-(제3회 BDA 채용 공모전 제출작)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Tourism](https://img.shields.io/badge/Topic-Tourism-green)
+![EDA](https://img.shields.io/badge/Analysis-EDA-orange)
+![Policy](https://img.shields.io/badge/Focus-Policy%20Analysis-purple)
 
-## 1. Background
-관광 정책 및 지역경제 활성화를 위해서는 단순 방문객 수가 아닌  
-**여행 패턴과 지출 구조를 고려한 숙박 인프라 입지 분석**이 필요하다.  
-본 프로젝트는 국민여행조사 데이터를 활용하여 **고지출·숙박형 관광 지역**을 도출하고,  
-실제 관광지 및 지역 여건을 결합한 데이터 기반 정책 제안을 목표로 한다.
+# Tourism Analysis Project: Travel Patterns and Accommodation Strategy
 
-## 2. Data
-- Source: 국민여행조사
-- Unit of Analysis: 지역 단위 관광 패턴
-- Key Variables:
-  - 여행 유형 (숙박/당일)
-  - 관광 지출
-  - 방문 지역
-  - 관광지 분포
+A data analysis project based on the National Travel Survey, aimed at identifying high-spending, overnight tourism regions.
+This study integrates travel patterns, expenditure data, and regional characteristics to support data-driven accommodation infrastructure and policy recommendations.
+---
 
-## 3. Methodology
-1. 관광 데이터 EDA를 통한 지역별 여행·지출 패턴 분석  
-2. 고지출 숙박형 관광 지역 후보군 도출  
-3. 관광지 분포 및 빈집 지역 데이터 결합  
-4. 최종 숙박 인프라 입지 후보 지역 선정  
-5. 숙박시설 유치 시 기대효과 분석
+## Repository Structure
 
-## 4. Key Results
-- 고지출 숙박형 관광 지역으로 **여수** 최종 선정
-- 여수 내 주요 관광지와 빈집 지역을 결합한 입지 분석 수행
-- 숙박시설 유치 시 지역경제 활성화 효과 도출
+| File | Description |
+|------|------|
+| `제3회 BDA 채용 공모전_P-Valley.ipynb` | Full analysis pipeline (EDA → analysis → results) |
+| `제3회 BDA 채용 공모전.pdf` | Initial submission report |
+| `제3회 BDA 채용 공모전(2차 심사 파일)_P-Valley.pdf` | Final presentation for competition |
+---
 
-## 5. Tech Stack
-- Python: pandas, numpy, scikit-learn, matplotlib, seaborn
-- Jupyter Notebook
+## Analysis Overview
 
-## 6. Files
-- `제3회 BDA 채용 공모전_P-Valley.ipynb`  
-  : 전체 분석 파이프라인 (EDA → 분석 → 결과)
-- `제3회 BDA 채용 공모전.pdf:`  
-  : 공모전 1차 제출 보고서
-- `제3회 BDA 채용 공모전(2차 심사 파일)_P-Valley.pdf`  
-  : 공모전 2차 본선 발표 자료
+### Initial Analysis (analysis.ipynb)
+
+| Section | Description |
+|------|------|
+| Data Loading & Preprocessing | Cleaning data and preparing analysis-ready variables |
+| Travel Pattern Analysis | Regional comparison of travel types (overnight vs day trips) |
+| Expenditure Analysis | Distribution and comparison of tourism spending by region |
+| Candidate Region Selection | Identification of high-spending overnight tourism regions |
+| Spatial Insights | Exploration of regional tourism characteristics |
+
+### Advanced Analysis (analysis_advanced.ipynb)
+
+| Section | Description |
+|------|------|
+| Data Integration | Combining tourism data with attraction distribution and vacant housing data |
+| Location Analysis | Identifying optimal regions for accommodation infrastructure |
+| Case Study (Yeosu) | In-depth regional analysis with tourist attractions and housing data |
+| Impact Evaluation | Estimating potential regional economic effects |
+
+---
+
+## Data Preparation
+
+Use the National Travel Survey dataset and preprocess it within the notebook.
+
+Additional datasets may include:
+- Tourist attraction distribution data  
+- Vacant housing data  
+
+---
+
+## Key Findings
+
+- **Yeosu** was identified as the most suitable high-spending overnight tourism region
+- Spatial analysis combining tourist attractions and vacant housing enabled practical location insights
+- Results suggest strong potential for regional economic growth through accommodation infrastructure development
+- Tourism patterns and expenditure structures vary significantly across regions
+  → Effective policy decisions require integrating multiple regional characteristics
+
+---
+
+## Limitations & Future Work
+
+- The analysis focuses on observed patterns and does not establish causal relationships
+- External factors such as seasonality and policy constraints are not fully considered
+- Web scraping was considered to collect additional spatial and infrastructure data for optimal location selection, but was not implemented due to data accessibility constraints
+- Future work may extend to predictive modeling and optimization-based location analysis, incorporating automated data collection (e.g., web scraping)
+
+---
+
+## Environment
+
+- **Language**: Python 3.x
+- **Libraries**: pandas, numpy, scikit-learn, matplotlib, seaborn
+- **Tools**: Jupyter Notebook
