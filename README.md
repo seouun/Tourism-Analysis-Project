@@ -18,8 +18,6 @@ This project analyzes national travel survey data to identify high-spending, ove
 | `notebooks/` | Full analysis pipeline (EDA → modeling → spatial analysis) |
 | `docs/` | proposal & final presentation |
 | `data/` | Dataset description only (data not included) |
-| `docs/yeosu_map.html` | Interactive map visualization |
-
 ---
 
 ## Project Background
