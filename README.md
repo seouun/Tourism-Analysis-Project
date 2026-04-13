@@ -16,8 +16,7 @@ This project analyzes national travel survey data to identify high-spending, ove
 | Folder/File | Description |
 |-------------|-------------|
 | `notebooks/` | Full analysis pipeline (EDA → modeling → spatial analysis) |
-| `docs/` | Competition reports and presentation materials |
-| `figures/` | Visualization outputs including map screenshots |
+| `docs/` | presentation file |
 | `data/` | Dataset description only (data not included) |
 | `docs/yeosu_map.html` | Interactive map visualization |
 
