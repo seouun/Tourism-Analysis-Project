@@ -42,7 +42,7 @@ Five data sources were integrated to analyze accommodation demand, tourism patte
 | [KOSIS — Statistics Korea](https://kosis.kr) | Registered tourism accommodation count and visitor numbers by major destination (Yeosu, Gapyeong, Danyang, Boryeong, Jeonju, Gyeongju) |
 | [Korea Tourism Data Lab](https://datalab.visitkorea.or.kr) | Popular tourist attractions in Yeosu by age group (20s, 30s) |
 | [Public Data Portal](https://data.go.kr) | Vacant house inventory (Jeonbuk / Yeosu / Boryeong), national parking lot data for terminal and IC accessibility |
-| [Binzibe-ae](https://www.binzibe.kr/main/) | Vacant house statistics (Gapyeong, Danyang, Jeonju, Gyeongju) |
+| [binzibe](https://www.binzibe.kr/main/) | Vacant house statistics (Gapyeong, Danyang, Jeonju, Gyeongju) |
 
 > Raw data is not included in this repository due to licensing and provider policies.
 
