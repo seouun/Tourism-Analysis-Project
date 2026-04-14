@@ -17,7 +17,6 @@ This project analyzes national travel survey data to identify high-spending, ove
 |-------------|-------------|
 | `notebooks/` | Full analysis pipeline (EDA → modeling → spatial analysis) |
 | `docs/` | proposal & final presentation |
-| `data/` | Dataset description only (data not included) |
 ---
 
 ## Project Background
@@ -35,13 +34,17 @@ This project aims to provide data-driven insights for tourism policy and infrast
 
 ## Data
 
-- Source: National Travel Survey (국민여행조사)  
-- Unit of Analysis: Regional tourism patterns  
-- Key Variables:
-  - Travel type (overnight / day trip)  
-  - Tourism expenditure  
-  - Visited locations  
-  - Tourist attraction distribution  
+Five data sources were integrated to analyze accommodation demand, tourism patterns, vacancy distribution, and accessibility across candidate regions.
+
+| Source | Data Used |
+|---|---|
+| [Korea National Tourism Survey](https://know.tour.go.kr/stat/nRawDataDownloadDis19Re.do) | Domestic travel microdata 2022–2024 (accommodation patterns, expenditure, visited destinations) |
+| [KOSIS — Statistics Korea](https://kosis.kr) | Registered tourism accommodation count and visitor numbers by major destination (Yeosu, Gapyeong, Danyang, Boryeong, Jeonju, Gyeongju) |
+| [Korea Tourism Data Lab](https://datalab.visitkorea.or.kr) | Popular tourist attractions in Yeosu by age group (20s, 30s) |
+| [Public Data Portal](https://data.go.kr) | Vacant house inventory (Jeonbuk / Yeosu / Boryeong), national parking lot data for terminal and IC accessibility |
+| [Binjip-ae](https://www.binjip.go.kr) | Vacant house statistics (Gapyeong, Danyang, Jeonju, Gyeongju) |
+
+> Raw data is not included in this repository due to licensing and provider policies.
 
 ---
 
